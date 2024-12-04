@@ -44,7 +44,11 @@ const Birthday = () => {
       {showFinalImage ? (
         <>
           <h1>Happy Birthday Gaurav</h1>
-          <img src={Photo3} alt="Final Image" className="dance-image" />
+          <img
+            src={Photo3}
+            alt="Happy Birthday Gaurav"
+            className="dance-image"
+          />
           <div className="age-counter">
             <p>
               you are now : {age.years} years, {age.months} months, {age.days}{" "}
