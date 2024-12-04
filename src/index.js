@@ -13,7 +13,7 @@ const queryClient = new QueryClient();
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/home", element: <Home /> },
-  { path: "/birthday", element: <Birthday /> },
+  { path: "/Happybirthday", element: <Birthday /> },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

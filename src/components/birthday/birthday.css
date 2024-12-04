@@ -1,0 +1,15 @@
+/* birthday.css */
+
+.birthday {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.dance-image {
+  width: 300px;
+  height: auto;
+  transition: all 0.5s ease;
+}
